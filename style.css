@@ -30,9 +30,8 @@ div {
 
 .bottom_button {
 	display: flex;
-	box-sizing:border-box;
+	box-sizing: border-box;
 	border-radius: 4px;
-	display: block;
 	width: 100%;
 	background-color:rgba(129, 187, 201,.85);
 	text-align: center;
@@ -43,7 +42,7 @@ div {
 
 .card_bottom {
 	display: flex;
-	flex-flow:column;
+	flex-flow: column;
 }
 
 .card_head {
@@ -57,10 +56,10 @@ div {
 #container {
 	display: flex;		/* makes container a flexbox*/
 	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
-	box-sizing:border-box;
-	margin-right:auto;
-	margin-left:auto;
-	max-width:1050px;	
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1050px;	
 }
 
 #logo {
@@ -69,10 +68,10 @@ div {
 }
 
 .card {
-	flex:1; /* */
+	flex: 1; /* */
 	display: flex;	/* make the contents controllable by flexbox*/
-	flex-flow:column;	/* */
-	min-width: 240px; /**/
+	flex-flow: column;	/* */
+	min-width: 240px; /* */
 	margin: 10px;
 	padding: 20px;
 	background-color: #fff;
@@ -82,14 +81,23 @@ div {
 	background-color: #EB5255;
 }
 
+.highlight_yellow {
+	background-color: yellow;
+    color: red;
+}
+
+.big_font {
+	font-size: 2rem;
+}
+
 #my_footer {
 	width:100%;
 	text-align: center;
 }
 
 #copyright {
-	margin-top:10px;
-	margin-bottom:10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /*************************
@@ -97,7 +105,7 @@ Navigation
 **************************/
 
 nav {
-	font-family: roboto;
+	font-family: 'Roboto';
 	background-color: #eee;
 	margin: 30px auto;
 	width: 100%;
@@ -105,40 +113,40 @@ nav {
 
 ul {
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-between;
 	flex-flow: row;
 	/*flex-flow: row-reverse;*/
-	/*justify-content:flex-end;*/
-	/*justify-content:space-around;*/
-	/*align-items:flex-start;*/
-	align-items:baseline;
+	/*justify-content: flex-end;*/
+	/*justify-content: space-around;*/
+	/*align-items: flex-start;*/
+	align-items: baseline;
 	border-radius: 10px;
 	list-style-type: none; /*Remove Bullets*/
 	padding: 0;	
 }
 
 li {
-	flex:1;
+	flex: 1;
 	height: 30px;
 	/*width:10%;*/
 	/*border:2px solid #000;*/
 	/*background-color: #81BBC9;*/
 	/*border-radius: 10px;*/
-	font-family: Dosis;
-	padding:20px 20px 20px 20px;
+	font-family: "Dosis";
+	padding: 20px 20px 20px 20px;
 	text-align: center;
 	font-size: 1.3em;
 }
 
 #logoNav {
-	flex:6;
+	flex: 6;
 	text-align: left;
 	font-size: 2em;
 	font-weight: bold;
 }
 
 .underline {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .border {
@@ -148,7 +156,7 @@ li {
 @media screen and (max-width: 700px) {
 	ul {
 		flex-flow: column;
-		align-items:center;
+		align-items: center;
     }
     
 	li {
